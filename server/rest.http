@@ -1,1 +1,22 @@
 GET http://localhost:5001/general/user/63701cc1f03239b7f700000e
+
+####
+
+GET http://localhost:5001/client/products
+
+####
+
+GET http://localhost:5001/client/customers
+
+###
+GET http://localhost:5001/client/transactions?page=0&pageSize=20&sort=%7B%7D&search=
+
+###
+GET http://localhost:5001/client/geography
+
+###
+GET http://localhost:5001/sales/sales
+
+
+######
+GET http://localhost:5001/management/performance/63701cc1f03239b7f700000e
